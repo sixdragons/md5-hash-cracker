@@ -1,0 +1,296 @@
+*{margin:0px;padding: 0px}
+
+@font-face {
+  font-family: shlop-rg;
+  src: url(../fonts/shlop-rg.ttf);
+}
+
+
+body{
+	min-height: 100vh;
+}
+.container{
+	max-width: 1080px;
+	width: 90%;
+	margin:0 auto;
+	overflow: hidden;
+}
+
+/* top-line nav area */
+.top-wrapper{
+	background-color: #152015;
+    overflow: hidden;
+    padding: 8px 0px 8px 0px;
+}
+.top-nav{
+	width: 50%;
+	float: left;
+}
+.top-nav-ul{
+	list-style: none;
+}
+.top-nav-ul>li{
+	display: inline-block;
+}
+.top-nav-ul>li>a{
+	display: block;
+	font-size: 22px;
+	margin-right: 5px;
+	text-decoration: none;
+	color:#34970f;
+	transition: color .5s;
+}
+.top-nav-ul>li>a:hover{
+	color: #4de414;
+}
+
+.top-social-icons{
+	width: 50%;
+	float: right;
+}
+.top-social-ul{
+	text-align: right;
+	list-style: none;
+}
+.top-social-ul>li{
+	display: inline-block;
+}
+.top-social-ul>li>a{
+	display: block;
+	font-size: 22px;
+	margin-right: 5px;
+	text-decoration: none;
+	color:#34970f;
+	transition: color .5s;	
+}
+.top-social-ul>li>a:hover{
+color: #4de414;	
+}
+
+/* top-line nav area end */
+
+/* branding area */
+
+.site-logo-and-tagline{
+	background-color: #EEE;
+	height: 120px;
+	overflow: hidden;
+	position: relative;
+	z-index: 1;
+}
+
+.site-logo-h1{
+    margin: 4px;
+    font-size: 75px;
+    font-family: shlop-rg;
+    color: #000000;
+    margin-left: 25px;
+}
+.tagline{
+	margin-left: 55px;
+	margin-top: -8px;
+}
+.tagline>p{
+	font-size: 15px;
+	font-family: shlop-rg;
+}
+
+.horror-s{
+	position: relative;
+    top: -150px;
+    float: right;
+    right: -314px;
+    z-index: 980;
+    width: 103px;
+    height: 110px;
+    background: #131b13;
+}
+.horror-girl-gif{
+	position: relative;
+    top: -153px;
+    float: right;
+    right: -10px;
+    z-index: 999;
+    width: 311px;
+    transform: rotate(235deg);
+
+}
+
+.horror-girl{
+	width: 100%;
+	overflow: hidden;
+}
+.main-content-wrap{
+	position: relative;
+    width: 90%;
+    margin: 0 auto;
+    min-height: calc(100vh - 259px);
+    height: 350px;
+    margin-bottom: 55px;
+}
+.main-content{
+	position: absolute;
+    width: 100%;
+    background-color: #97a093;
+    margin: 0 auto;
+    margin-top: 45px;
+    border-radius: 10px;
+    min-height: 350px;
+}
+
+.top-side-img{
+    position: absolute;
+    left: -58px;
+    top: -38px;
+    z-index: 9;
+    overflow: hidden;
+    width: 160px;
+}
+.top-side-img>img{
+	width: 100%;
+}
+
+.left-input-div{
+	width: 49%;
+	height: 100%;
+	height: 100%;
+	float: left;
+}
+
+.right-output-div{
+	width: 49%;
+	height: 100%;
+	float: right;
+	height: 100%;
+}
+
+.status-img{
+	width: 215px;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-top: -30px;
+}
+
+.status-img>img{
+	width: 100%;
+}
+
+.curent-status{
+	margin: -40px 0px 20px 80px;
+    font-family: "Lucida Console";
+    font-size: 14px;
+    color: black;
+}
+
+hr{ 
+    border:none;
+    border-left:1px solid green;
+    width: 1px; 
+    height: 350px;  
+    float: left;    
+}
+
+.hash-input{
+	width: 90%;
+	margin:0 auto;
+	display: block;
+	border:0px;
+	background-color: #eee;
+	height: 40px;
+	padding: 10px;
+	border-radius: 8px;
+}
+
+.hash-button{
+	margin: 5px;
+    border: 0px;
+    background-color: #34960e;
+    color: #141c14;
+    margin-left: 20px;
+    padding: 3px;
+    font-size: 25px;
+    overflow: hidden;
+    width: 130px;
+    border-radius: 8px;
+    transition: color .5s;
+}
+.output-status{
+	margin:20px;
+}
+.passD{
+	background: white;
+    width: 90%;
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+	border-radius: 6px;
+	color: #34960e;
+}
+
+.hash-button:hover{
+	background-color: #2d840b;
+}
+
+.output-img{
+    width: 90px;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+.output-img>img{
+	width: 100%;
+}
+.output-status{
+	text-align: center;
+	font-size: 20px;
+	font-family: "Lucida Console";
+}
+
+.bottom-wrapper{
+	background-color: #152015;
+    overflow: hidden;
+    padding: 8px 0px 8px 0px;
+}
+.copyright{
+	float: left;
+	width: 50%;
+}
+.copyright>h4{
+	font-size: 22px;
+    color: #34960e;
+}
+
+
+.bottom-social-icons{
+	width: 50%;
+	float: right;
+}
+.bottom-social-ul{
+	text-align: right;
+	list-style: none;
+}
+.bottom-social-ul>li{
+	display: inline-block;
+}
+.bottom-social-ul>li>a{
+	display: block;
+	font-size: 22px;
+	margin-right: 5px;
+	text-decoration: none;
+	color:#34970f;
+	transition: color .5s;	
+}
+.bottom-social-ul>li>a:hover{
+color: #4de414;	
+}
+.error{
+	display: none;
+}
+
+@media only screen and (max-width: 750px) {
+  .body{
+  	display: none;
+  }
+  .error{
+  	display: block;
+  }
+}

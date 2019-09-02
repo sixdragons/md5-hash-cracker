@@ -1,0 +1,76 @@
+*{
+	margin:0;
+	padding: 0;
+}
+.body{
+	background-color: #e9fbfc;
+	height: 100vh;
+	width: 100%;
+	position: relative;
+}
+
+.formDiv{
+	width: 400px;
+	overflow: hidden;
+	background-color: #fff;
+	margin:auto;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	box-shadow: 1px 1px 10px #35a1ceba;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+
+}
+.formDiv .title{
+	color: #a29f9f;
+    font-size: 24px;
+    font-weight: 300;
+}
+.form{
+	margin:30px 20px 20px 20px;
+}
+.inputArea{
+	margin-top: 20px;
+	margin-bottom: 25px;
+}
+input{
+	width: 280px;
+	height: 40px;
+	border:1px solid #eee;
+	margin:0 auto;
+	padding: 3px 8px 3px 8px;
+	font-family: 'Livvic', sans-serif;
+}
+button{
+    width: 298px;
+    height: 40px;
+    border: 1px solid #eee;
+    margin: 0 auto;
+    padding: 3px 8px 3px 8px;
+    font-family: 'Livvic', sans-serif;
+    margin-top: 15px;
+    background: #4372db;
+    letter-spacing: 1px;
+    color: white;
+    text-transform: uppercase
+}
+button:hover{
+	cursor: pointer;
+}
+.createAcc{
+	color: #a29f9f;
+    font-size: 15px;
+    font-family: 'Livvic', sans-serif;
+    margin-top: 50px;
+    margin-bottom: 35px;
+}
+.createAcc>a{
+	color: skyblue;
+}
+.error{
+	margin-top: 15px;
+    color: #ffbcbc;
+    font-size: 14px;
+}
