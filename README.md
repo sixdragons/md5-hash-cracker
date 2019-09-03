@@ -1,4 +1,4 @@
-# md5-hash-font
+# md5-hash-cracker
 
 > md5 hash cracker using vue js and php
 
